@@ -11,7 +11,7 @@ class SortableController < ApplicationController
       end
     end
 
-    head :ok
+    head :no_content
   end
 
 private
